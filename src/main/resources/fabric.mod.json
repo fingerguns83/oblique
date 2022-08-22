@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "oblique",
+  "version": "${version}",
+  "name": "Oblique",
+  "description": "Brian Eno and Peter Schmidt's \"Oblique Strategies\" adapted for Minecraft",
+  "authors": [
+    "fingerguns83"
+  ],
+  "contact": {
+    "website": "https://fg83.net"
+  },
+  "license": "LGPL-3.0",
+  "icon": "/assets/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.fg83.oblique.client.ObliqueClient"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": ">=1.19"
+  }
+}
